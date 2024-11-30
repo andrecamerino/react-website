@@ -1,4 +1,4 @@
-# react-webstie
+# react-website
 
 Creating a frontend web application using react.js
 Based on the [youtube tutorial](https://www.youtube.com/watch?v=WbV3zRgpw_E) by GreatStack.
