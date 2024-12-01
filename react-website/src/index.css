@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
 
 *{
+  /* outline: 1px dotted red; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -51,4 +52,22 @@ a{
 .btn img {
   width: 20px;
   margin-left: 10px;
+}
+
+.btn.dark-btn {
+  color: #212EA0;
+  border: 1px solid #212EA0;
+}
+.btn.dark-btn:hover {
+  background-color: #212EA0;
+  color: #fff;
+}
+
+.btn img {
+  filter: invert(100%);
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover img {
+  filter: invert(0%);
 }
