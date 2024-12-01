@@ -71,3 +71,17 @@ a{
 .btn:hover img {
   filter: invert(0%);
 }
+
+/* --- media query --- */
+
+@media (max-width: 1200px) {
+
+    .container {
+      padding: 0 5%;
+    }
+
+    .btn {
+      padding: 14px 22px;
+      font-size: small;
+    }
+}
