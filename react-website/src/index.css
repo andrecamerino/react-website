@@ -35,6 +35,7 @@ a{
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: 0.26s;
 }
 
 .btn:hover {
