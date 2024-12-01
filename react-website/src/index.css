@@ -7,6 +7,10 @@
   font-family: "Outfit", sans-serif;
 }
 
+/* ::-webkit-scrollbar{
+  visibility: hidden;
+} */
+
 body{
   background-color: #F5F5F5;
 }
