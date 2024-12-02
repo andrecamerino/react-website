@@ -18,9 +18,11 @@
 .about-img {
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .play-icon {
+    cursor:pointer;
     width: 60px;
     position: absolute;
     top: 50%;
