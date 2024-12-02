@@ -83,5 +83,32 @@ a{
     .btn {
       padding: 14px 22px;
       font-size: small;
+      background: #FFF;
+      color: #212121;
+    }
+
+    .btn:hover {
+      background: none;
+      color: #F5F5F5;
+      outline: 1px solid #F5F5F5;
+    }
+
+    .btn.dark-btn {
+      background: #212EA0;
+      color: #F5F5F5;
+    }
+
+    .btn.dark-btn img {
+      filter: invert(0);
+    }
+
+    .btn.dark-btn:hover {
+      background: #F5F5F5;
+      outline: 1px solid #212EA0;
+      color: #212121;
+    }
+
+    .btn.dark-btn:hover img {
+      filter: invert(100%);
     }
 }
