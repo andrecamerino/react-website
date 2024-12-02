@@ -8,9 +8,13 @@
   font-family: "Outfit", sans-serif;
 }
 
-/* ::-webkit-scrollbar{
-  visibility: hidden;
-} */
+html, body {
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
 
 body{
   background-color: #F5F5F5;
